@@ -38,7 +38,6 @@ while ($command != 'end')
             }
             break;
     }
-    
     $command = readline();
     $c = explode(' ', $command);
 }
