@@ -10,7 +10,6 @@ while ($input !== "END") {
         echo "false".PHP_EOL;
     }
     $input = readline();
-
 }
 
 function isPalindrome($number)  {
@@ -23,4 +22,6 @@ function isPalindrome($number)  {
     }
     return true;
 }
+
+
 ?>

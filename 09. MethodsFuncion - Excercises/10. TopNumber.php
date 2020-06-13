@@ -17,7 +17,6 @@ function printTopNumber(int $number) : void {
             if ($lastDigits % 2 == 1) {
                 $hasOdd = true;
             }
-
         }
         if($sumDigits % 8 == 0 && $hasOdd){
             echo $i.PHP_EOL;
