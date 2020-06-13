@@ -4,7 +4,6 @@ $arr = explode(' ',readline());
 $command = readline();
 
 while ($command != 'end') {
-
     $commands = explode(' ', $command);
     $action = $commands[0];
     $numberCommand = $commands[1];
@@ -34,7 +33,6 @@ while ($command != 'end') {
             }
             break;
         case "Print":
-
             for ($i = 0; $i < count($arr); $i++) {
                 if ($numberCommand == 'odd') {
                     if ($arr[$i] % 2 !== 0) {
@@ -47,12 +45,11 @@ while ($command != 'end') {
                 }
             }
             echo PHP_EOL;
-            break;
+            break; 
         case "Get":
             echo array_sum($arr) . PHP_EOL;
-            break;
+            break;        
         case "Filter":
-
             foreach ($arr as $value) {
                 switch ($numberCommand) {
                     case '>':
@@ -77,13 +74,11 @@ while ($command != 'end') {
                         break;
                 }
             }
-
                 echo PHP_EOL;
                 break;
             }
     $command = readline();
 }
-
 
 echo implode(' ',$arr);
 
