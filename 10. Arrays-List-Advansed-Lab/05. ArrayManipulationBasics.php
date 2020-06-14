@@ -33,7 +33,6 @@ while (true) {
             $arr = array_merge($firstPart, $addElement, $secondPart);
             break;
     }
-
 }
 echo implode(" ", $arr).PHP_EOL;
 
