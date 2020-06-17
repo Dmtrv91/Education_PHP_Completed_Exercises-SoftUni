@@ -74,7 +74,6 @@ for ($i = 0; $i < $n; $i++) {
         $teamsList[] = $team;
         echo "Team $teamName has been created by $teamLead!" . PHP_EOL;
     }
-
 }
 
 while (true) {
@@ -116,7 +115,6 @@ while (true) {
                     break;
                 }
             }
-
         }
     }
 
@@ -132,7 +130,6 @@ while (true) {
             }
         }
     }
-
 }
 
 usort($teamsList, function ($a, $b) use ($teamsList) {
